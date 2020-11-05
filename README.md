@@ -2,13 +2,14 @@
 
 The official repository of the Cerberus Test Network
 
-Cerberus Test Net is a test network designed for building applications on Cerberus Net, a next-generation marketplace built on the Zilliqa blockchain. We invite innovators to build trustless bridges utilizing Smart Contracts that leverage Flare's Spark Token (FXRP), XRP that settle on the XRP ledger, and Zil that settles on the Zilliqa blockchain.
+Cerberus Test Net is designed to accomodate developers in testing applications being built to run on Cerberus Net, a next-generation uncensorable marketplace that leverages Embyr coin (EXC) and Embyr-X token (EXT) built on the Zilliqa blockchain. We invite innovators to test projects that utilize Smart Contracts leveraging Flare's Spark Token (FXRP), XRP that settle on the XRP ledger, and ZIL that settles on the Zilliqa blockchain.
 
 ## Features
 
-- A testing ground for developers that want to utilize Embyr with Flare's test-FXRP and test-XRP and test-Zil to develop and test applications before risking actual value.
+- A testing ground for developers that want to utilize Test-Embyr with Flare's test-FXRP [test-Zil] to run applications before risking actual value.
 
-- A network designed for innovators that create applications directly accesible within the Cerberus ecosystem. 
+- A network where creators test applications that directly connect within "Project: Embyr" ecosystem; 
+ref: https://github.com/Embyr/Embyr.git  
 
 ## Get Started with XRP and ZIL on Cerberus Test Net
 
