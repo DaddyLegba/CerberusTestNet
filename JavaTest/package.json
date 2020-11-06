@@ -1,0 +1,10 @@
+{
+  "name": "CerberusTestNet",
+  "version": "0.0.1",
+  "description": "test blockchain",
+  "main": "app.js",
+  "repository": "https://github.com/DaddyLegba/CerberusTestNet.git",
+  "author": "Daddy Legba",
+  "license": "MIT",
+  "private": false
+}
