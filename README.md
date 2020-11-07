@@ -1,32 +1,44 @@
 # Cerberus Test Net
 
-The official repository of the Cerberus Test Network
-
 Cerberus Test Net is designed to accomodate developers in testing applications being built to run on Cerberus Net, a next-generation uncensorable marketplace that leverages Embyr coin (EXC) and Embyr-X token (EXT) built on the Zilliqa blockchain. We invite innovators to test projects that utilize Smart Contracts leveraging Flare's Spark Token (FXRP), XRP that settle on the XRP ledger, and ZIL that settles on the Zilliqa blockchain.
 
 ## Features
 
-- A testing ground for developers that want to utilize Test-Embyr with Flare's test-FXRP [test-Zil] to run applications before risking actual value.
+- A testing ground for developers who want to utilize test-EXC with Flare's test-FXRP, and $gZil to run applications before risking actual value.
 
-- A network where creators test applications that directly connect within "Project: Embyr" ecosystem; 
-ref: https://github.com/Embyr/Embyr.git  
+- A network where creators test applications that directly connect within the ecosystem of "Project: Embyr". Further details can be found via the command lines: 
+
+### Embyr:
+```
+https://github.com/Embyr/Embyr.git 
+```
+### The Lesser:
+```
+https://github.com/Embyr/TheLesser.git
+```
+### The Three:
+```
+https://github.com/Embyr/TheThree.git
+```
+
+ref: https://github.com/Embyr/Embyr.git
 
 ## Get Started with XRP and ZIL on Cerberus Test Net
 
 This repo can be downloaded via the commandline:
 ```
-https://github.com/DaddyLegba/CerberusTestNet.git
+https://github.com/Embyr/CerberusTestNet.git
 ```
 You can navigate to the `CerberusTestNet` repo using:
 ```
 cd CerberusTestNet
 ```
 
-Cerberus Test Net leverages Node.js for its faucet and also for Web3 applications such as Truffle. Install Node.js v6 or higher (Node.js v10 LTS is recommended) using a package manager [here](https://nodejs.org/en/download/package-manager/). After you have installed Node.js, you can check the version of the node binary from a command line using: `node --version`. On some platforms, the binary is named nodejs instead: `nodejs --version`.
+Cerberus Net leverages Node.js for its faucet and also for Web3 applications such as Truffle. Install Node.js v8 or higher (Node.js v10.19.0 LTS is recommended) using a package manager [here](https://nodejs.org/en/download/package-manager/). After installing Node.js, check the version of the node binary from the terminal command line using: `node --version` or `node -v`. On some platforms, the binary is named nodejs instead: `nodejs --version` or `nodejs -v`.
 
-Cerberus Test Net uses Yarn to manage dependencies; Yarn v1.13.0 is recommended and can be installed [here](https://classic.yarnpkg.com/en/docs/install#mac-stable). After you have installed Yarn, you can check the version of the yarn binary from a command line: `yarn --version`.
+Coston uses Yarn to manage dependencies; Yarn v1.13.0 is recommended and can be installed [here](https://classic.yarnpkg.com/en/docs/install#debian-stable). After you have installed Yarn, you can check the version of the yarn binary from a command line: `yarn --version` or `yarn -v`.
 
-Use Yarn to install Cerberus' dependencies:
+Use Yarn to install Cerberus Net dependencies:
 ```
 yarn
 ```
@@ -34,22 +46,26 @@ yarn
 
 ### Use the Cerberus Faucet
 
-To get test-XRP onto the Cerberus network, first generate XRPL Testnet credentials [here](https://xrpl.org/xrp-testnet-faucet.html). After you have generated the credentials, you can run the faucet system which transfers 500 test-XRP to the Coston network:
+To get test-XRP onto Cerberus Net, you'll first have to generate XRPL Testnet credentials [here](https://xrpl.org/xrp-testnet-faucet.html). After you've generated the credentials, you can run the faucet system which transfers 500 test-XRP to Cerberus Net:
 ```
 node faucet.js
 ```
 
-This program will ask for the XRPL Testnet credentials that you generated in the previous step, use these credentials to transfer value to the Coston network, and then save your Coston network credentials in a file called: `costonAccount.json`. 
+This program will ask for the XRPL Testnet credentials that you generated in the previous step, use these credentials to transfer value to the Coston network, and then save your Coston network credentials in a file called: `CerberusNetAccount.json`. 
 
-### XRP on MetaMask
+### ZIL on [Zillet]
 
-MetaMask is an in-browser wallet & gateway to blockchain apps. MetaMask can be downloaded [here](https://metamask.io/). After you have installed MetaMask, you can hook it into Coston by clicking the network drop-down button in the top-center of the MetaMask app, then selecting the 'Custom RPC' option and entering the following fields:
+[Zillet] is an in-browser wallet & gateway to blockchain apps. [Zillet] can be downloaded [here](https://zillet.io/). Once you've completed storing your JSON private key in a [*secure location*](https:cerberusnet.zil/opsec-tips), you'll be ready to connect your test wallet with the Cerberus test net.
 
-- Network Name: `Coston Test Network`
+### Connecting
+
+Click the network drop-down button located at the top right corner of the test app. Select the 'Custom RPC' option and entering the following fields:
+
+- Network Name: `Cerberus Test Network`
 - New RPC URL: `http://coston.flare.network:9650/ext/bc/C/rpc`
-- Symbol: `FXRP`
+- Symbol: `tEXC`
 
-After you have created and toggled to the Coston Test Network, you can now load in your Coston network credentials to MetaMask that were saved in the previous step to `costonAccount.json`. In MetaMask, click the 'My Accounts' button in the top-right corner of the app, navigate to 'Import Account' and then paste in your Coston network private key. After your account has loaded, you can refresh MetaMask by selecting the Coston Test Network RPC endpoint again in the network drop-down menu. Your balance of tokens on the Coston network should then appear as:
+After you have created and toggled to the test network, you can now load in your Coston network credentials to MetaMask that were saved in the previous step to `costonAccount.json`. In MetaMask, click the 'My Accounts' button in the top-right corner of the app, navigate to 'Import Account' and then paste in your Coston network private key. After your account has loaded, you can refresh MetaMask by selecting the Coston Test Network RPC endpoint again in the network drop-down menu. Your balance of tokens on the Coston network should then appear as:
 
 ![XRP on MetaMask](https://github.com/flare-eng/coston/blob/master/costonMetaMask.png)
 
@@ -110,4 +126,3 @@ truffle(coston)> newBalance.toNumber()
 
 ### Continue learning
 This quickstart showed you the basics of the Truffle project lifecycle, but there is much more to learn. Please continue on with the rest of Truffle's [documentation](https://www.trufflesuite.com/docs) and especially the [tutorials](https://www.trufflesuite.com/tutorials) to learn more.
-
