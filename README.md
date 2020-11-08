@@ -6,7 +6,7 @@ Cerberus Test Net is a dev-friendly testing ground used for applications being b
 
 - A testing ground for developers who want to utilize tEXC with Flare's tFXRP, and $gZil to run applications before risking actual value.
 
-- A network where creators test applications that directly connect within the ecosystem of "Project: Embyr". Further details can be found via the command lines: 
+- A network where creators test applications that directly connect within the ecosystem of "Project: Embyr". Further details about the project can be found via the command line: 
 
 ###     Embyr:
 ```
