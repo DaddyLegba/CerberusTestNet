@@ -8,15 +8,15 @@ Cerberus Test Net is a dev-friendly testing ground used for applications being b
 
 - A network where creators test applications that directly connect within the ecosystem of "Project: Embyr". Further details can be found via the command lines: 
 
-###     Embyr: 08/22
+###     Embyr:
 ```
 https://github.com/Embyr/Embyr.git 
 ```
-### The Lesser: 08/24
+### The Lesser:
 ```
 https://github.com/Embyr/TheLesser.git
 ```
-### The Three: 08/26
+### The Three:
 ```
 https://github.com/Embyr/TheThree.git
 ```
