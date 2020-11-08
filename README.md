@@ -12,14 +12,6 @@ Cerberus Test Net is a dev-friendly testing ground used for applications being b
 ```
 https://github.com/Embyr/Embyr.git 
 ```
-### The Lesser:
-```
-https://github.com/Embyr/TheLesser.git
-```
-### The Three:
-```
-https://github.com/Embyr/TheThree.git
-```
 
 ref: https://github.com/Embyr/Embyr.git
 
