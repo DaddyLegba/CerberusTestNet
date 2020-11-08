@@ -1,6 +1,6 @@
 # Cerberus Test Net
 
-Cerberus Test Net is a dev-friendly testing ground used for applications being built on top of and within Cerberus net [a next-generation blockchain that leverages the in-game digital asset Embyr (EXC) and our bridge token Embyr-X (EXT) which was designed to leverage smart contracts]. We invite vendors and innovators to test projects designed to increase not only liquidity within the Cerberus universe, but also create new and unique use cases for EXC and EXT within and outside of the Cerberus ecosystem.
+Cerberus Test Net is a dev-friendly testing ground used for applications being built on top of and within Cerberus net [a next-generation blockchain that leverages the in-game digital asset Embyr (EXC) and our bridge token Embyr-X (EXT) which is used for settlement when executing smart contracts]. We invite vendors and innovators to test projects designed to increase not only liquidity within the Cerberus universe, but also create new and unique use cases for EXC and EXT within and outside of the Cerberus ecosystem.
 
 ## Features
 
