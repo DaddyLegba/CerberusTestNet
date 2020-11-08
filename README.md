@@ -26,9 +26,9 @@ You can navigate to the `CerberusTestNet` repo using:
 cd CerberusTestNet
 ```
 
-Cerberus Net leverages Node.js for its faucet and also for Web3 applications such as Truffle. Install Node.js v8 or higher (Node.js v10.19.0 LTS is recommended) using a package manager [here](https://nodejs.org/en/download/package-manager/). After installing Node.js, check the version of the node binary from the terminal command line using: `node --version` or `node -v`. On some platforms, the binary is named nodejs instead: `nodejs --version` or `nodejs -v`.
+Cerberus leverages Node.js for its faucet and also for Web3 applications such as Truffle. Install Node.js v8 or higher (Node.js v10.19.0 LTS is recommended) using a package manager [here](https://nodejs.org/en/download/package-manager/). After installing Node.js, check the version of the node binary from the terminal command line using: `node --version` or `node -v`. On some platforms, the binary is named nodejs instead: `nodejs --version` or `nodejs -v`.
 
-Coston uses Yarn to manage dependencies; Yarn v1.13.0 is recommended and can be installed [here](https://classic.yarnpkg.com/en/docs/install#debian-stable). After you have installed Yarn, you can check the version of the yarn binary from a command line: `yarn --version` or `yarn -v`.
+Cerberus uses Yarn to manage dependencies; Yarn v1.13.0 is recommended and can be installed [here](https://classic.yarnpkg.com/en/docs/install#debian-stable). After you have installed Yarn, you can check the version of the yarn binary from a command line: `yarn --version` or `yarn -v`.
 
 Use Yarn to install Cerberus Net dependencies:
 ```
